@@ -8,6 +8,7 @@ You first need your object to have a cloth texture<br>
 Than you need to make a vertex group - go into edit mode select the vertices you want to not be effected by wind and assign them to a new vertex group<br>
 Under physics under Shape pin your vertex group you just made<br>
 Create a new object of wind or vortex to set up to how you like the animation<br>
+Now we need to make keyframes within your animation ie setting strength of wind to 0 on frame 1, set it to strength 10 on frame 5 set it to strength 20 on frame 15 make another keyframe at frame 80 with strength 20, frame 90 set it to strength 10 and back to 0 on frame 100 etc as a basic example<br>
 You will need to rebake your object anytime you change a cloth setting or wind direction or setting<br>
 When ready to import to unity, goto render settings make Film - transparent checked<br>
 Under output set the resolution to be equal ie 1024 x 1024<br>
