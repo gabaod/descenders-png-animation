@@ -1,8 +1,22 @@
 Welcome to how to implement png animations from blender into unity 2017 to be exported into the game Descenders
 
 First off you will need to import the StreamingFlagAnimator.cs into your assets/scripts/ folder in unity
-And secondly visit this youtube link and Ill show a quick demonstration of the full process.
+And secondly visit this youtube link and Ill show a quick demonstration of the full process.<br><br><br><br>
 
+In Blender:<br><br>
+You first need your object to have a cloth texture<br>
+Than you need to make a vertex group - go into edit mode select the vertices you want to not be effected by wind and assign them to a new vertex group<br>
+Under physics under Shape pin your vertex group you just made<br>
+Create a new object of wind or vortex to set up to how you like the animation<br>
+You will need to rebake your object anytime you change a cloth setting or wind direction or setting<br>
+When ready to import to unity, goto render settings make Film - transparent checked<br>
+Under output set the resolution to be equal ie 1024 x 1024<br>
+Set your frame rate and range<br>
+Set your output directory path<br>
+Make sure its set to PNG, RGBA, 8<br>
+Now create a camera so using numpad 0 shows just the animation in the window, hit the camera icon to remove any other object from being rendered within that camera view<br>
+It is very important your camera only shows your item you wish to animate and it doesnt go outside the camera window<br>
+Now goto render and render animation and all your pngs should be in your set directory path to now import into unity 2017<br><br><br><br>
 
 
 
